@@ -94,6 +94,6 @@ class MyVideoCapture:
 
 # будем выполнять цикл, пока не нажмем на кнопку для выхода из программы
 while True:
-    # открытие окна
+    # открытие окнаf
     App(tkinter.Tk(), "Tkinter and OpenCV")
 
