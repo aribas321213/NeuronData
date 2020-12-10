@@ -200,7 +200,7 @@ def predict(input_img):
     num[0] = label
 # рисуем прямоугольник
     draw_rectangle(img, rect)
-# пишем имя
+# пишем имяя
     t=0
     threshold = 35
     if confidence < threshold:
