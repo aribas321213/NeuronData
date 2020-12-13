@@ -189,7 +189,7 @@ def predict(input_img):
 # определим лицо на фото
     face, rect = detect_face(img)
 
-# если не нашли лицо в кадре вернем исходный кадрh
+# если не нашли лицо в кадре вернем исходный кадр
     if face is None:
         return input_img
 

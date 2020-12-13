@@ -13,6 +13,7 @@ from PIL import Image, ImageTk
 
 num = ['']
 v = []
+ssss = 0
 subjects = json.load(open(config.path+'Person.txt', 'r'))
 
 class App:
@@ -94,6 +95,6 @@ class MyVideoCapture:
 
 # будем выполнять цикл, пока не нажмем на кнопку для выхода из программы
 while True:
-    # открытие окнаf
+    # открытие окна
     App(tkinter.Tk(), "Tkinter and OpenCV")
 
